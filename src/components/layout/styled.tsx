@@ -2,9 +2,8 @@ import styled from "styled-components";
 import { Layout } from "antd";
 
 const LayoutStyleDiv = styled(Layout)`
-  header.ant-layout-header {
-    background: #11cdef !important;
-    //height: 100px;
+  .ant-layout-header {
+    background: linear-gradient(to left, #1172ef, #11caef) !important;
   }
 `;
 

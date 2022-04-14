@@ -2,8 +2,8 @@ import { Route } from "react-router-dom";
 import { Layout } from "antd";
 import MenuHome from "../sider/menuHome";
 import React from "react";
-import Head from "../head/head";
 import LayoutStyleDiv from "./styled";
+import Head from "../head/head";
 
 const { Sider, Header, Content, Footer } = Layout;
 
@@ -24,7 +24,9 @@ const LayoutSide = ({
           <Header>
             <Head />
           </Header>
-          <Content>Content</Content>
+          <Content>
+            <Component />
+          </Content>
           <Footer>Footer</Footer>
         </Layout>
       </LayoutStyleDiv>
