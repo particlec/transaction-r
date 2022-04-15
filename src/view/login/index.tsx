@@ -14,29 +14,49 @@ const Login = () => {
             </div>
             <div className={"login-main"}>
                 <div className={"background-blue-black"}>
-
                 </div>
+            </div>
+            <div className={"background-black-a"}>
+                <div className={"login-window"}>
+                    <div className={"login-window-main"}>
+                        <div className={"login-thirdParty"}>
+                            <div className={"login-thirdParty-font"}>Sign in with</div>
+                            <div className={"login-thirdParty-label"}>
+                                <a className={"github"}>
+                                    <span>
+                                      111
+                                    </span>
+                                    <span>
+                                       222
+                                    </span>
+                                </a>
+                                <a className={"google"}>
+                                   <span>
+                                      111
+                                    </span>
+                                    <span>
+                                       222
+                                    </span>
+                                </a>
+                            </div>
 
-                <div className={"background-black"}>
+                        </div>
+                        <div className={"login-account"}>
 
+                        </div>
+
+                    </div>
+                    <div className={"login-window-password"}>
+                        <div className={"forgot-password"}>Forgot password?</div>
+                        <div className={"create-new-account"}>Create new account</div>
+                    </div>
                 </div>
-
             </div>
         </LoginStyledDiv>
     );
 };
 export default Login;
 
-//
-//
-// top: auto;
-// left: 0;
-// right: 0;
-// width: 100%;
-// height: 150px;
-// -webkit-transform: translateZ(0);
-// transform: translateZ(0);
-// overflow: hidden;
 // 认证------https://www.cnblogs.com/ypppt/p/13332017.html
 // 前端账号密码;
 // 服务端给token;
